@@ -43,7 +43,7 @@ def date_str_to_unix_time(s):
 
 def login():
     sess = session()
-    sess.auth = ('nezaicev', 'wp8db002611')
+    sess.auth = ('login', 'password')
     return sess
 
 
